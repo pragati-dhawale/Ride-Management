@@ -1,0 +1,22 @@
+{% extends "templates/base.html" %}
+{% block title %} {{ _("Pragati Cabs Vehical") }} {% endblock %}
+{% block content %}
+{% endblock %}
+div class="container">
+    <h2>
+        {{ _("Pragati Cab Vehical") }}
+    </h2>
+    <div class="mt-28">
+        {% for vehical in vehical %}
+            <div class="mt-8">
+                <h5> {{ vehical.make }} </h5>
+                <div> {{ _("Model") }}; {{ vehical.model }} {{ _("purchased in year") }}; <b>
+                    {{ vehical.year }}
+                </b></div>
+            </div>
+        {% endfor %}
+    </div>
+    <a class="btn btn-primary btn-nd mt-8" href="ride-order/new">
+        {{ _("Book a Ride") }}
+    </a>
+</div>

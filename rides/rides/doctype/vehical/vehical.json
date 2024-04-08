@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: VEHICAL-{####}",
+ "creation": "2024-04-01 09:53:13.744895",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "make",
+  "model",
+  "year",
+  "column_break_jweh",
+  "insurance_documents",
+  "status",
+  "date_of_insurance_expiry"
+ ],
+ "fields": [
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Make"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Model"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Year"
+  },
+  {
+   "fieldname": "column_break_jweh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurance_documents",
+   "fieldtype": "Attach",
+   "label": "Insurance documents"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Available\nUnavailable\nIn Repair\nSold"
+  },
+  {
+   "fieldname": "date_of_insurance_expiry",
+   "fieldtype": "Date",
+   "label": "Date of insurance Expiry"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-02 00:09:01.581671",
+ "modified_by": "Administrator",
+ "module": "Rides",
+ "name": "Vehical",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "make"
+}
