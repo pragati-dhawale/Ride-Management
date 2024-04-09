@@ -122,13 +122,12 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"User": {
+		"validate": "user.rides.rides.validate_last_name",
+		
+	}
+}
 
 # Scheduled Tasks
 # ---------------
@@ -227,3 +226,4 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures=["Notification"]

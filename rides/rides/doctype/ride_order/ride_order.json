@@ -41,8 +41,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "User",
-   "options": "User",
-   "reqd": 1
+   "options": "User"
   },
   {
    "fieldname": "status",
@@ -50,14 +49,13 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "New\nRide created\nRide completed\nRejected",
-   "reqd": 1
+   "options": "New\nRide created\nRide completed\nRejected"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-04-02 12:40:56.392665",
+ "modified": "2024-04-08 21:58:47.944710",
  "modified_by": "Administrator",
  "module": "Rides",
  "name": "Ride Order",

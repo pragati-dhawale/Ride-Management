@@ -1,9 +1,15 @@
 # Copyright (c) 2024, Pragati Dhawale and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
 class RideOrder(Document):
-	pass
+	def validate(self):
+		self.validate_user()
+	
+
+	def validate_user(self):
+		if not self.user:
+			self.user = frappe.session.user
