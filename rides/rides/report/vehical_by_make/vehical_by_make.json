@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-04-08 12:01:05.638613",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"make\",\"Vehical\"],[\"_aggregate_column\",\"Vehical\"]],\"order_by\":\"`tabVehical`.tabVehical`.creation desc, `tabVehical`.name desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"make\":120,\"_aggregate_column\":200},\"group_by\":{\"group_by\":\"`tabVehical`.`make`\",\"aggregate_function\":\"count\"}}",
+ "letterhead": null,
+ "modified": "2024-04-11 20:27:34.871141",
+ "modified_by": "Administrator",
+ "module": "Rides",
+ "name": "Vehical By Make",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Vehical",
+ "report_name": "Vehical By Make",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

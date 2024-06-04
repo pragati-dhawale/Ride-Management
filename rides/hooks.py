@@ -132,23 +132,12 @@ doc_events = {
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"rides.tasks.all"
-# 	],
-# 	"daily": [
-# 		"rides.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"rides.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"rides.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"rides.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+
+	"daily": [
+		"rides.rides.scheduled_events.sent_insurance_reminder"
+	],
+}
 
 # Testing
 # -------
